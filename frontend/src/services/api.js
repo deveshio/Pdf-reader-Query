@@ -1,7 +1,7 @@
 // src/services/api.js
 
 // const BACKEND_URL = 'http://localhost:8000'; // Change to your Render URL for production
-const BACKEND_URL = 'https://pdf-reader-query.onrender.com'; // Change to your Render URL for production
+const BACKEND_URL = 'https://cognidocbackend.onrender.com'; // Change to your Render URL for production
 
 export const uploadPdf = async (file) => {
     const formData = new FormData();
