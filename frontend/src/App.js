@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import FileUploader from './components/FileUploader';
 import QueryForm from './components/QueryForm';
-
+import Footer from './components/Footer';
 function App() {
     const [isDBReady, setIsDBReady] = useState(false);
 
@@ -19,6 +19,7 @@ function App() {
                 {isDBReady && <QueryForm />}
               
             </div>
+            <Footer/>
         </div>
     );
 }

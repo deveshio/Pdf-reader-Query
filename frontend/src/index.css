@@ -311,3 +311,126 @@ body {
   content: '❌ ';
   margin-right: 0.5rem;
 }
+
+
+/* ================================== */
+/* SPLIT FOOTER STYLING               */
+/* ================================== */
+
+.split-footer {
+  width: 100%;
+  background-color: #121212;
+  border-top: 1px solid #333;
+  padding: 1.5rem 0;
+  margin-top: auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 90%; /* Keeps content slightly away from edges */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Pushes Left and Right apart */
+  align-items: center;
+  flex-wrap: wrap; /* Allows wrapping on mobile */
+  gap: 1.5rem;
+}
+
+/* --- LEFT SIDE --- */
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-label {
+  color: #666;
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: #888;
+  transition: transform 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a:hover {
+  color: #00c6ff;
+  transform: translateY(-2px);
+}
+
+/* --- RIGHT SIDE --- */
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.project-link {
+  color: #dcdcdc;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.2s;
+}
+
+.project-link:hover {
+  color: #00c6ff;
+  text-decoration: underline;
+}
+
+/* The divider line */
+.divider {
+  color: #333;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* "More Projects" specific styling */
+.more-projects-link {
+  color: #a0a0a0;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 6px 12px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.more-projects-link:hover {
+  border-color: #00c6ff;
+  color: #00c6ff;
+  background: rgba(0, 198, 255, 0.05);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+  .footer-container {
+    flex-direction: column; /* Stack them on phone */
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .footer-right {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .divider {
+    display: none; /* Hide vertical line on mobile */
+  }
+}

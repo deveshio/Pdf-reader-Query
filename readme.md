@@ -144,7 +144,7 @@ Run the backend server.
 uvicorn main:app --reload
 ```
 
-### ***2. Backend Setup***
+### ***2. Frontend Setup***
 ```
 # navigate to Frontend
 cd frontned
