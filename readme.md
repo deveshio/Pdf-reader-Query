@@ -11,10 +11,10 @@ CogniDoc is a full-stack, AI-powered web application that transforms static PDF 
 The application provides a clean, two-step user experience:
 
 1. **Before Upload:** A clean interface prompts the user to upload a file.  
-![Demo Screenshot](./Media/image1.png)
+![Demo Screenshot](https://github.com/deveshio/Pdf-reader-Query/blob/main/media/image1.png)
 
 2. **After Upload & Query:** After processing, the app confirms the document is ready and provides an interface for asking questions and receiving AI-generated answers.
-![Demo Screenshot](./Media/image2.png)
+![Demo Screenshot](https://github.com/deveshio/Pdf-reader-Query/blob/main/media/image1.png)
 ---
 
 ## 🚀 Key Features
