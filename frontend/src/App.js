@@ -19,7 +19,7 @@ function App() {
                 {isDBReady && <QueryForm />}
               
             </div>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 }
