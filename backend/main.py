@@ -1,3 +1,13 @@
+try:
+    import pyasyncore as asyncore
+    import sys
+    sys.modules['asyncore'] = asyncore
+except ImportError:
+    pass
+
+import os
+import io
+# ... the rest of your imports
 import os
 import io
 from dotenv import load_dotenv
@@ -14,7 +24,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Cassandra
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.chains.retrieval_qa.base import RetrievalQA
+from langchain_classic.chains import RetrievalQA
 
 # --- INITIALIZE MODELS AND DATABASE ON STARTUP ---
 try:

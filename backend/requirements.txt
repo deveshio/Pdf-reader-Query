@@ -7,9 +7,10 @@ pydantic-settings
 PyPDF2
 cassio
 cassandra-driver
-langchain>=0.2.0
+langchain
 langchain-community
 langchain-core
+langchain-classic         
 langchain-huggingface
 langchain-google-genai
 langchain-text-splitters
