@@ -18,3 +18,5 @@ sentence-transformers
 PyPDF2
 cassio
 cassandra-driver
+
+langchain-text-splitters
