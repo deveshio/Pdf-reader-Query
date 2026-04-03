@@ -1,22 +1,16 @@
-# --- Core Frameworks ---
 fastapi
 uvicorn
 python-dotenv
 python-multipart
 pydantic
 pydantic-settings
-
-# --- LangChain & AI Libraries ---
-langchain
+PyPDF2
+cassio
+cassandra-driver
+langchain>=0.2.0
 langchain-community
 langchain-core
 langchain-huggingface
 langchain-google-genai
 langchain-text-splitters
-google-generativeai
 sentence-transformers
-
-# --- Data Handling ---
-PyPDF2
-cassio
-cassandra-driver
